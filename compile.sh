@@ -1,0 +1,3 @@
+g++ station_master.cpp -o station_master.o -lcrypto -lssl -L/opt/homebrew/opt/openssl@3.1/lib -I/opt/homebrew/opt/openssl@3.1/include -std=c++11
+g++ platform.cpp -o platform.o -lcrypto -lssl -L/opt/homebrew/opt/openssl@3.1/lib -I/opt/homebrew/opt/openssl@3.1/include -std=c++11
+g++ train.cpp -o train.o -lcrypto -lssl -L/opt/homebrew/opt/openssl@3.1/lib -I/opt/homebrew/opt/openssl@3.1/include -std=c++11
